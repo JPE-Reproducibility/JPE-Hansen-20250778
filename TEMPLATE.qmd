@@ -16,47 +16,13 @@ format:
 | Iteration |  {{< var round >}} |
 
 
-
-> {REPLICATOR} Every line which looks like this one, that is, it starts with {REPLICATOR} and has this formatting (there is a grey bar on the left 👀), is an **instruction for the replicator**. When you are done with editing this file, _there should be no such line left_ - you should delete all of them.
-
-> {REPLICATOR} Next to {REPLICATOR} for you, the replicator, there are instructions for the authors/data editor. Those are labelled either {REQUIRED} or {SUGGESTED}. You should delete those *only if specifically instructed*.
-
-> {REPLICATOR}: You should look at additional [Step by step guidance from Data Editor for Replicators](https://jpe-reproducibility.github.io/jpereplicators)
-
-::: {.callout-tip}
-
-# {Replicator}: Glossary (delete this before you submit your report!)
-
-_A brief explanation of important terms, before we start!_
-
-1. Dropbox: a location where authors upload their package and where the journal office uploads pdfs of paper and appendix. You download the package from there via the URL contained in your assignment email.
-2. `gh`: Github.com.
-3. Github Repository (_repo_): The location on `gh` where we store the _code_ of a given package (not the data!). It is also the location where you should file an issue tagging `@jpedataeditor` in the text, in case you encounter any problems or have questions. The github repo associated with this package was in your assignment email for this package. Let me print it here again for you (keep a browser tab open): [{{< var repo >}}]({{< var repo >}})
-4. `round`: the iteration number of this package. Notice that on the repo, each iteration has their own branch. Notice that you start on `round1`.
-5. manuscript/paper: The PDFs of accepted paper and appendices, which we want to verify. You should copy both paper and appendix into the root of this repo
-
-:::
-
-
 Some useful information up front:
 
 - [JPE Data and Code Availability Policy](https://www.journals.uchicago.edu/journals/jpe/datapolicy)
 - [Step by step guidance from Data Editor for Authors](https://jpedataeditor.github.io/) 
 - [Template README](https://social-science-data-editors.github.io/template_README/)
 
-
-
-> {REPLICATOR} the file you are looking at lives in a git repository on your computer. You should place the repository in a location on your computer where you have read and write access (I would not put it on any cloud storage to avoid issues). 
-
-
-> {REPLICATOR} you will edit _this_ file (`./TEMPLATE.qmd`). It is the source of your report. The package of the authors lives in folder `replication-package/`. We call the lowest level of this repo (marked by the dot `.` in `./TEMPLATE.qmd`) the _root of the repo_. Do not get confused if the authors talk about the _root of their package_, which would be location `./replication-package/` in this case.
-
-
-
 # Summary
-
-> {REPLICATOR} **The Data Editor** will fill this part out. It will be based on any {REQUIRED} and {SUGGESTED} action items that the report makes a note of.
-
 
 In assessing compliance with our [Data and Code Availability Policy](https://www.journals.uchicago.edu/journals/jpe/datapolicy), our reproducibility team has identified the following issues, which we ask you to address:
 
@@ -68,18 +34,18 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 
 > {REPLICATOR} Check off the following sections/elements that you find in either the README provided by the authors, or in the authors' online appendix (rare).
 
-- [ ] Data Availability and Provenance Statements
-  - [ ] Statement about Rights - Part 1: Right to use the data (e.g. *did the authors lawfully obtain the data*)
-  - [ ] Statement about Rights - Part 2: Right to publish the data (e.g. *are human subjects involved and did permission been granted to publish their data?*)
-  - [ ] License for Data (optional, but recommended)
-  - [ ] Details on each Data Source
-- [ ] Dataset list
-- [ ] Computational requirements
-  - [ ] Software Requirements
+- [x] Data Availability and Provenance Statements
+  - [x] Statement about Rights - Part 1: Right to use the data (e.g. *did the authors lawfully obtain the data*)
+  - [x] Statement about Rights - Part 2: Right to publish the data (e.g. *are human subjects involved and did permission been granted to publish their data?*)
+  - [x] License for Data (optional, but recommended)
+  - [x] Details on each Data Source
+- [x] Dataset list
+- [x] Computational requirements
+  - [x] Software Requirements
   - [ ] Controlled Randomness (as necessary)
   - [ ] Memory, Runtime, and Storage Requirements
-- [ ] Description of programs/code
-  - [ ] License for Code (Optional, but recommended) 
+- [x] Description of programs/code
+  - [x] License for Code (Optional, but recommended) 
 - [ ] {REPLICATOR} to Replicators
   - [ ] Details (as necessary)
 - [ ] List of tables and programs
@@ -88,11 +54,9 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 
 # High-level Description of Research Project
 
-> {REPLICATOR} Tick all applicable boxes. You tick a box by placing an `x` between the square brackets (don't change anything else).
-
 *This research project...*
 
-- [ ] uses observational data.
+- [x] uses observational data.
 - [ ] uses *confidential* observational data.
 - [ ] uses data generated via experiment or trial by the authors (in field or lab).
   - [ ] For lab experiments: The code to implement the experimental protocol (z-Tree, o-Tree etc) is included in the package.
@@ -105,23 +69,6 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
   - [ ] A PDF of the original questionaire(s) and information on the selection and eligibility of participants is included.
 - [ ] is a simulation study: the data are generated by an algorithm.
 - [ ] is a numerical illustration: no data are used but code is used to produce illustrative output (tables, figures)
-
-
-# Data description
-
-> {REPLICATOR} If the project has any confidential or restricted data, please leave the following statements here. If not, delete until next heading (`## Data Sources`).
-
-For any data that cannot be provided as part of the replication package, please provide the following information as part of the README.
-
-> {REQUIRED}  Please specify how long the data will be preserved in the restricted-access location.
-
-> {REQUIRED} Please provide affirmation of support for replication checks.
-  - As per the [JPE policy](https://jpedataeditor.github.io/policy.html), "In cases where data cannot be published in an openly accessible trusted data repository like the JPE dataverse, authors who have requested an exemption to publish them at the time of first submission must commit to preserving the data and code for a period of no less than five years following the publication of the paper. They should also provide reasonable assistance to requests for clarification and replication."
-
-
-> {REQUIRED} Please provide a codebook for the data.
-  - The codebook should at a minimum describe the variables obtained from the data source, in a manner that will let others verify that they have obtained a substantially similar dataset if successfully obtaining access to the data.
-
 
 ## Data Sources
 
@@ -166,16 +113,10 @@ For any data that cannot be provided as part of the replication package, please 
 
 # Requirements 
 
-> {REPLICATOR}: Check that these requirements are met. 
-
-- [ ] README is in TXT, MD, or PDF format
-- [ ] README is accessible at the root of the package (not inside a folder)
+- [x] README is in TXT, MD, or PDF format
+- [x] README is accessible at the root of the package (not inside a folder)
 - [ ] Title conforms to guidance (starts with "Data and Code for: Title of Paper" or "Code for: Title of Paper", is properly capitalized)
 - [ ] Authors (with affiliations) are listed in the same order as on the paper
-
-> {REPLICATOR}: If any of the above are NOT checked, leave the related {REQUIRED} element here. Otherwise, delete the line.
-
-> {REQUIRED} Please ensure that a ASCII (txt), Markdown (md), or PDF version of the README are available in the data and code deposit.
 
 > {REQUIRED} Please review the title of the deposit as per our guidelines.
 
@@ -184,25 +125,22 @@ For any data that cannot be provided as part of the replication package, please 
 
 ## Stated Requirements
 
-> {REPLICATOR}: The authors may have specified specific requirements in terms of software, computer hardware, etc. Please list them here. This is **different** from the Computing Environment of the Replicator. You have the option to amend these with unstated requirements later. If all requirements are listed, check the box "Requirements are complete".
-
 - [ ] No requirements specified
-- [ ] Software Requirements specified as follows:
-  - Software 1
-  - Software 2
+- [x] Software Requirements specified as follows:
+  - Python >= 3.9 and <3.12
+  - R with `renv`
+  - Gurobi >= 10.0.3
+  - CmdStan through `cmdstanpy`
+  - Slurm (optional)
 - [ ] Computational Requirements specified as follows:
   - Cluster size, etc.
-- [ ] Time Requirements specified as follows:
-  - Length of necessary computation (hours, weeks, etc.)
+- [x] Time Requirements specified as follows:
+  - 46 hours (with Slurm parallelization)
+  - 2,400 job-hours (across parallel tasks)
 
 - [ ] Requirements are complete.
 
-> {REPLICATOR}: If the requirements are NOT complete, please leave this line in. If unsure, leave this line in:
-
 For missing requirements, see the list of required changes in @sec-findings
-
-> {REPLICATOR}: If easier, simply copy-and-paste the authors' stated requirements here:
-
 
 
 # Analyzing Data and Code Files
@@ -235,72 +173,345 @@ For missing requirements, see the list of required changes in @sec-findings
 {{< include generated/report-cloc.md >}}
 
 
-- [ ] The replication package contains a "main" or "master" file(s) which calls all other auxiliary programs.
-
-> {REPLICATOR}: If the above checkbox for "main" file is NOT checked, leave the following SUGGESTION in the report!
-
-> {SUGGESTED} We strongly advise the use of a single (or a small number of) main control file(s) to automatically reproduce all figures and tables in the paper, without manual interaction.
+- [x] The replication package contains a "main" or "master" file(s) which calls all other auxiliary programs.
+- The replication folder contains 48 R scripts, 49 Python files, and 2 shell scripts
 
 > NOTE: In-text numbers that reference numbers in tables do not need to be listed. Only in-text numbers that correspond to no table or figure need to be listed.
 
 ## Computing Environment of the Replicator
 
-> {REPLICATOR}: You are now running the code!
+- Nuvolos Cloud Server, "Ubuntu 24.04.1 LTS", AMD EPYC 9354P, 32 cores, 64GB RAM
+- R `sessionInfo()` below:
+```bash
+R version 4.5.3 (2026-03-11)
+Platform: x86_64-conda-linux-gnu
+Running under: Ubuntu 24.04.1 LTS
 
-> {REPLICATOR}: This might be automated, for now, please fill in manually. Remove examples that are not relevant, adjust examples to fit special circumstances. Some of this is available from the standard log output in Stata or R. Some frequently used details are below. Some of these details can be found as follows:
->
-> - (Windows) by right-clicking on "This PC"
-> - (Mac) Apple-menu > "About this Mac"
-> - (Linux) see code in `tools/linux-system-info.sh`
->
-> Some options are listed below. Choose the one that applies.
+Matrix products: default
+BLAS/LAPACK: /opt/conda/lib/libopenblasp-r0.3.30.so;  LAPACK version 3.12.0
 
-- Mac Laptop M2 MacBook Pro, MacOS 10.14.6, 8 GB of memory, (M2 Processor, 8 cores)
-- RedCloud Servers: Intel Xeon Processor (Skylake) 3.09 GHz (18 processors), Installed Ram 176 GB, 64-bit operating system, x64-based processor
-- CCSS Cloud: Windows Server AMD EPYC 7763 64-Core Processor 2.44 GHz, 128GB
-- BioHPC Linux server, Rocky Linux 9.0, AMD Opteron Processor 6380 / 16 cores/ 125 GB memory (adjust as necessary from output of linux-system-info.sh)
-- WholeTale (describe the environment chosen)
-- CodeOcean (describe the type of capsule chosen) Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz (16 cores), 128 GB Memory
-- Bitbucket Pipelines, "Ubuntu 20.04.2 LTS", Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz, 8 cores, 9GB memory
-- Codespaces, "Ubuntu 20.04.2 LTS", Intel(R) Xeon(R) Platinum 8272CL CPU @ 2.60GHz, 2 core, 8GB/ 4-core, 16GB/ 8-core, 32 GB/ 16-core, 64GB (choose appropriately)
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
 
+time zone: Etc/UTC
+tzcode source: system (glibc)
 
-> {REPLICATOR}: Please also list the software you used (specific versions). List only the ones you used, add any not listed in the examples:
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
 
-- Stata/MP 18.0
-- Matlab R2022a
-- Intel Compiler 3.14152 (note: there is no such thing, so please verify the version!)
+loaded via a namespace (and not attached):
+[1] compiler_4.5.3
+```
+
+- R 4.5.3
+- Python 3.11
 
 # Replication
 
-> {REPLICATOR}: provide details about your process of accessing the code and data.
-> 
-> - Do NOT detail things like "I save them on my Desktop".
-> - DO describe actions that you did as per {REPLICATOR} ("I added a config.do")
-> - DO describe any other actions you needed to do ("I had to make changes in multiple programs"), without going into TOO much detail.
-> 
-> BUT:
-> 
-> - DO provide ENOUGH detail so that an author, without access to the logs, can understand what needed to be fixed, including a copy-paste of the error message.
-> - DO commit to git before EACH new run with corrected code.
-> - DO (after all debugging is completed) a full run through the data, top-to-bottom, once all bugs are fixed, using the approriate method (command line or right-click).
+Created a Gurobi academic account, downloaded the license, and uploaded it to the working environment.
 
-Example:
+Set the Gurobi license path in the shell:
 
-- Downloaded code and data from dropbox.
-- Commited code to git repo.
-- Added the config.do generating system information.
-- Ran code as per README, but the third step did not work. (describe the problem HERE, and paste the full log in an issue on the github repo of this package - do not forget to add the tag @jpedataeditor whenever you open an issue!) 
-
-```R
-error: command distinct unknown
+```bash
+export GRB_LICENSE_FILE=/files/gurobi.lic
 ```
 
-- Had to add undocumented package `distinct` to the install portion of the config file. Ran again.
-- Code failed because of a typo in the name of the file "`superdata.dta`" (was: `superdta.dta`). Fixed. Ran again.
-- Code ran to completion. 
+## Initial Environment Setup
 
-> {REPLICATOR}: You are done now with the actual replication task. We now move to writing your report.
+Attempted to source the setup script in local mode:
+
+```bash
+source ./setup_env.sh local
+```
+
+This produced a virtual environment permission error:
+
+```
+Unable to symlink '/opt/conda/bin/python3' to '/files/package/amazon-carbon-prices/.venv/bin/python3'
+bash: /files/package/amazon-carbon-prices/.venv/bin/python: Permission denied
+[... additional setup output omitted ...]
+```
+
+Tried fixing the virtual environment by removing `.venv`, making the setup script executable, and rerunning setup:
+
+```bash
+rm -rf .venv
+chmod +x ./setup_env.sh
+./setup_env.sh local
+```
+
+## Missing R
+
+The setup script then reported that `Rscript` was unavailable:
+
+```
+Warning: Rscript is not available. Install R first, then rerun without --skip-renv.
+```
+
+Fixed by installing R through conda:
+
+```bash
+conda install -c conda-forge r-base r-essentials
+```
+
+Later, rebuilt the environment more completely with Python, R, ImageMagick, and `pkg-config`:
+
+```bash
+conda create -n amazon-carbon -c conda-forge python=3.11 "r-base=4.4.*" r-essentials imagemagick pkg-config -y
+conda activate amazon-carbon
+```
+
+## R Package: `magick`
+
+The `magick` package failed because the Magick++ headers/libraries were missing:
+
+```
+Error: Error installing package 'magick':
+Configuration failed to find the Magick++ library.
+<stdin>:1:10: fatal error: Magick++.h: No such file or directory
+[... additional renv traceback omitted ...]
+```
+
+Fixed by creating a fuller conda environment with ImageMagick and `pkg-config`:
+
+```bash
+conda create -n amazon-carbon -c conda-forge python=3.11 "r-base=4.4.*" r-essentials imagemagick pkg-config -y
+conda activate amazon-carbon
+```
+
+## R Package: `nloptr`
+
+The `nloptr` package failed during the local NLopt/CMake build:
+
+```
+Error: Error installing package 'nloptr':
+CMake Error at CMakeLists.txt:15 (cmake_minimum_required): Compatibility with CMake < 3.5 has been removed from CMake.
+/opt/conda/envs/amazon-carbon/.../ld: cannot find nlopt/lib/libnlopt.a: No such file or directory
+[... additional compiler and renv output omitted ...]
+```
+
+Fixed by installing NLopt and build tools from conda-forge:
+
+```bash
+conda install -c conda-forge nlopt cmake pkg-config -y
+```
+
+## R Package: `units`
+
+The `units` package failed because `libudunits2` was missing:
+
+```
+Error: Error installing package 'units':
+configure: error: Configuration failed because libudunits2.so was not found.
+[... additional configure and renv output omitted ...]
+```
+
+Fixed by installing `udunits2` and `expat`:
+
+```bash
+conda install -c conda-forge udunits2 expat -y
+```
+
+## R Package: `sf`
+
+The first `sf` installation failed because `gdal-config` was missing:
+
+```
+Error: Error installing package 'sf':
+configure: error: gdal-config not found or not executable.
+[... additional renv traceback omitted ...]
+```
+
+Installed the spatial libraries:
+
+```bash
+conda install -c conda-forge gdal geos proj sqlite libspatialite -y
+```
+
+The next `sf` installation reached GDAL, GEOS, and PROJ, but failed compiling against the newer GDAL API:
+
+```
+Error: Error installing package 'sf':
+stars.cpp:24:48: error: invalid conversion from 'CSLConstList' {aka 'const char* const*'} to 'char**' [-fpermissive]
+[... additional compiler output and renv traceback omitted ...]
+```
+
+Fixed by pinning GDAL/libGDAL to the 3.8 series:
+
+```bash
+conda install -c conda-forge "gdal=3.8.*" "libgdal=3.8.*" geos proj sqlite libspatialite -y
+```
+
+The next `sf` attempt failed because PROJ data could not be found:
+
+```
+Error: Error installing package 'sf':
+ERROR 1: PROJ: proj_create_from_database: Open of /opt/conda/envs/amazon-carbon/share/proj failed
+configure: error: OGRCoordinateTransformation() does not return a coord.trans: PROJ not available?
+[... additional configure and renv output omitted ...]
+```
+
+Fixed by installing `proj-data` and exporting the relevant data paths:
+
+```bash
+conda install -c conda-forge proj proj-data -y
+export PROJ_LIB=/opt/conda/envs/amazon-carbon/share/proj
+export PROJ_DATA=/opt/conda/envs/amazon-carbon/share/proj
+export GDAL_DATA=/opt/conda/envs/amazon-carbon/share/gdal
+```
+
+## R Package: `systemfonts`
+
+The `systemfonts` package failed because `uint32_t` was not declared:
+
+```
+Error: Error installing package 'systemfonts':
+ft_cache.h:159:18: error: 'uint32_t' has not been declared
+ft_cache.h:20:1: note: 'uint32_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
+[... additional compiler output and renv traceback omitted ...]
+```
+
+Fixed by creating an R `Makevars` file that forces inclusion of `cstdint`:
+
+```bash
+mkdir -p ~/.R
+cat > ~/.R/Makevars <<'EOF'
+CXXFLAGS += -include cstdint
+CXX11FLAGS += -include cstdint
+CXX14FLAGS += -include cstdint
+CXX17FLAGS += -include cstdint
+CXX20FLAGS += -include cstdint
+EOF
+```
+
+## R Package: `ragg`
+
+The `ragg` package failed on an invalid conversion in the bundled AGG/Freetype code:
+
+```
+Error: Error installing package 'ragg':
+agg/src/agg_font_freetype.cpp:182:35: error: invalid conversion from 'unsigned char*' to 'char*' [-fpermissive]
+[... additional compiler output and renv traceback omitted ...]
+```
+
+Fixed by adding `-fpermissive` to the R `Makevars` C++ flags:
+
+```bash
+cat > ~/.R/Makevars <<'EOF'
+CXXFLAGS += -include cstdint -fpermissive
+CXX11FLAGS += -include cstdint -fpermissive
+CXX14FLAGS += -include cstdint -fpermissive
+CXX17FLAGS += -include cstdint -fpermissive
+CXX20FLAGS += -include cstdint -fpermissive
+EOF
+```
+
+## R Package: `selectr`
+
+The `selectr` package failed because cached `stringi` was linked against a missing ICU library:
+
+```
+Error: Error installing package 'selectr':
+unable to load shared object '.../stringi/libs/stringi.so': libicuuc.so.78: cannot open shared object file: No such file or directory
+[... additional lazy-loading and renv output omitted ...]
+```
+
+Fixed by removing the stale cached `stringi` package:
+
+```bash
+rm -rf /tmp/R/renv/cache/v5/linux-ubuntu-noble/R-4.4/x86_64-conda-linux-gnu/stringi
+```
+
+## R Package: `terra`
+
+The `terra` package initially failed because the C compiler could not create executables:
+
+```
+Error: Error installing package 'terra':
+configure: error: C compiler cannot create executables
+[... additional configure and renv output omitted ...]
+```
+
+Tried installing compiler/runtime packages:
+
+```bash
+conda install -c conda-forge compilers libstdcxx-ng libgcc-ng sysroot_linux-64 make -y
+```
+
+When the source installation failed again, installed `terra` directly from conda-forge:
+
+```bash
+conda install -c conda-forge r-terra -y
+```
+
+After that, `terra` installed successfully:
+
+```
+Installing terra ... OK [built from source and cached in 3.4m]
+```
+
+## R Package: `tidyverse`
+
+The `tidyverse` package failed because `stringi` was linked against a missing ICU library:
+
+```
+Error: Error installing package 'tidyverse':
+unable to load shared object '.../stringi/libs/stringi.so': libicui18n.so.75: cannot open shared object file: No such file or directory
+[... additional package-loading and renv output omitted ...]
+```
+
+Fixed by removing the stale cached `stringi` package again:
+
+```bash
+rm -rf /tmp/R/renv/cache/v5/linux-ubuntu-noble/R-4.4/x86_64-conda-linux-gnu/stringi
+```
+
+## `sf` Runtime Linkage Issue
+
+After installing `r-terra`, `sf` failed to load because it was linked against a missing GDAL shared library:
+
+```
+Error: package or namespace load failed for 'sf':
+unable to load shared object '.../sf/libs/sf.so': libgdal.so.34: cannot open shared object file: No such file or directory
+```
+
+Fixed by removing `r-terra` and reinstalling a consistent GDAL stack:
+
+```bash
+conda remove r-terra -y
+conda install -c conda-forge "gdal=3.8.5" "libgdal=3.8.5" geos proj proj-data sqlite libspatialite -y
+```
+
+## CmdStan Build
+
+Building CmdStan failed because `TBB_CXX_TYPE` was not set for the conda compiler:
+
+```
+stan/lib/stan_math/make/libraries:114: *** "Need to set TBB_CXX_TYPE for non-standard compiler other than gcc or clang.". Stop.
+```
+
+Fixed by setting the conda environment paths and `TBB_CXX_TYPE`, then rebuilding:
+
+```bash
+cd /home/datahub/.cmdstan/cmdstan-2.39.0
+
+export CONDA_PREFIX=/opt/conda/envs/amazon-carbon
+export PATH=$CONDA_PREFIX/bin:$PATH
+export MAKE=$CONDA_PREFIX/bin/make
+export TBB_CXX_TYPE=gcc
+
+/opt/conda/envs/amazon-carbon/bin/make build -j1
+```
+- After this `setup_env.sh` ran to completion. 
+- The full pipeline was not run due computational limitations. A shorter run based on the README was run and finished to completion.
+```bash
+./run.sh --steps postprocess-only --backend local
+```
 
 # Findings {#sec-findings}
 
@@ -408,7 +619,7 @@ Figure 3 [DELETE THIS FIGURE]
 
 > {REPLICATOR}: list page and line number of in-text numbers. If ambiguous, cite the surrounding text, i.e., "the rate fell to 52% of all jobs: verified".
 
-- [ ] In-text numbers not verified.
+- [x] In-text numbers not verified.
 
 - [ ] There are no in-text numbers, or all in-text numbers stem from tables and figures.
 
@@ -446,7 +657,7 @@ Example:
 
 - [ ] full reproduction
 - [ ] full reproduction with minor issues
-- [ ] partial reproduction (see above)
+- [x] partial reproduction (see above)
 - [ ] not able to reproduce most or all of the results (reasons see above)
 
 ## Reason for incomplete reproducibility
@@ -460,7 +671,7 @@ Example:
   - [ ] `Data preparation code missing` should be checked if the code missing seems to be data preparation code
 - [ ] `Code not functional` is more severe than a simple bug: it prevented the replicator from completing the reproducibility check
 - [ ] `Software not available to replicator` may happen for a variety of reasons, but in particular (a) when the software is commercial, and the replicator does not have access to a licensed copy, or (b) the software is open-source, but a specific version required to conduct the reproducibility check is not available.
-- [ ] `Insufficient time available to replicator` is applicable when (a) running the code would take weeks or more (b) running the code might take less time if sufficient compute resources were to be brought to bear, but no such resources can be accessed in a timely fashion (c) the replication package is very complex, and following all (manual and scripted) steps would take too long.
+- [x] `Insufficient time available to replicator` is applicable when (a) running the code would take weeks or more (b) running the code might take less time if sufficient compute resources were to be brought to bear, but no such resources can be accessed in a timely fashion (c) the replication package is very complex, and following all (manual and scripted) steps would take too long.
 - [ ] `Data missing` is marked when data *should* be available, but was erroneously not provided, or is not accessible via the procedures described in the replication package
 - [ ] `Data not available` is marked when data requires additional access steps, for instance purchase or application procedure. 
 - [ ] `Missing README` is marked if there is no README to guide the replicator, or the README is not in compliance with JPE requirements
