@@ -1,11 +1,11 @@
 title: "Carbon prices, forest conservation and reforestation in the Brazilian Amazon"
 author: "Hansen"
-round: 1
+round: 2
 repo: "https://github.com/JPE-Reproducibility/JPE-Hansen-20250778"
 paper_id: 20250778
 journal: "JPE"
 paper_slug: "Hansen-20250778"
-dropbox_rel_path: "JPE/Hansen-20250778/1"
-package_size_gb: 75.76
+dropbox_rel_path: "JPE/Hansen-20250778/2"
+package_size_gb: 75.91
 package_max_file_size_gb: 2
 package_max_pkg_size_gb: 10
