@@ -123,3 +123,5 @@ if true
 else
     @info "run_checks=false — package fetched, skipping PackageScanner precheck"
 end
+
+# retrigger after 24h timeout fix
