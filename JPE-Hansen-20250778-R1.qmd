@@ -43,11 +43,11 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Computational requirements
     -   [x] Software Requirements
     -   [ ] Controlled Randomness (as necessary)
-    -   [ ] Memory, Runtime, and Storage Requirements
+    -   [x] Memory, Runtime, and Storage Requirements
 -   [x] Description of programs/code
     -   [x] License for Code (Optional, but recommended)
 -   [x] List of programs
--   [ ] List of tables
+-   [x] List of tables
 -   [x] References (Optional, but recommended)
 
 # High-level Description of Research Project
@@ -72,22 +72,18 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 
 | file/name | public | private | DOI/URL | Access described | cited readme | cited paper |
 |-----------|-----------|-----------|-----------|-----------|-----------|-----------|
-| World Bank / WDI and Climate Watch | yes | no | yes | yes | yes | no |
-| Amazonia 2030 / Fatos da Amazonia 2021 | yes | no | yes | yes | yes | no |
-| MapBiomas Collection 5 | yes | no | yes | yes | yes | no |
-| ANA/PNRH basin layers via MapBiomas | yes | no | yes | yes | yes | no |
-| ESA Biomass Climate Change Initiative | yes | no | yes | yes | yes | no |
-| SEEG emissions data | yes | no | yes | yes | yes | no |
+| World Bank / WDI and Climate Watch | yes | no | yes | yes | yes | yes |
+| Amazonia 2030 / Fatos da Amazonia 2021 | yes | no | yes | yes | yes | yes |
+| MapBiomas Collection 5 | yes | no | yes | yes | yes | yes |
+| ANA/PNRH basin layers via MapBiomas | yes | no | yes | yes | yes | yes |
+| ESA Biomass Climate Change Initiative | yes | no | yes | yes | yes | yes |
+| SEEG emissions data | yes | no | yes | yes | yes | yes |
 | IBGE agricultural census / geographies | yes | no | yes | yes | yes | yes |
 | SEAB-PR / DERAL via IPEA | yes | no | yes | yes | yes | yes |
-| IPEA distance-to-capital data | yes | no | yes | yes | yes | no |
+| IPEA distance-to-capital data | yes | no | yes | yes | yes | yes |
 | WorldClim 2.1 climate rasters | yes | no | yes | yes | yes | yes |
-| FGV IBRE deflator series | yes | no | yes | yes | yes | no |
-| World Bank Carbon Pricing Dashboard | yes | no | yes | yes | yes | no |
-
-- "Data Citations" were identified from the README. However, they do not follow any specific citation format. It is recommended to make them all consistent with the JPE citation requirements with the same citation appearing in the paper and the README.
-
-- Access conditions are described in `codebook.csv`
+| FGV IBRE deflator series | yes | no | yes | yes | yes | yes |
+| World Bank Carbon Pricing Dashboard | yes | no | yes | yes | yes | yes |
 
 ### World Bank / WDI and Climate Watch
 
@@ -97,7 +93,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
     
 > World Bank. World Development Indicators and World Bank source files used for Figure 1, GDP per capita, emissions, and carbon-pricing inputs. URLs: https://data.worldbank.org/, https://databank.worldbank.org/source/world-development-indicators, and https://carbonpricingdashboard.worldbank.org/. Access note: manuscript Figure 1 reports World Bank data were downloaded in March 2021.
@@ -112,7 +108,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
 
 > Amazonia 2030. 2021. Fatos da Amazonia 2021. Amazonia 2030. URL: https://amazonia2030.org.br/. Used for the Brazilian Amazon point in Figure
@@ -125,7 +121,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
     
 > MapBiomas Project. Collection 5 Annual Land Cover and Land Use Maps of Brazil and related MapBiomas products. URL: https://mapbiomas.org/. Used for land-use/cover, total available area, agricultural area, deforestation, secondary vegetation age, pasture quality, and basin inputs. See also Souza Jr. et al. (2020), cited in the manuscript.
@@ -138,7 +134,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
 
 > Agencia Nacional de Aguas e Saneamento Basico (ANA). 2006. National Water Resources Plan basin layers, level 2. Distributed through MapBiomas basin inputs. URL: https://www.gov.br/ana/. Used for basin groups in Appendix C.1.
@@ -151,7 +147,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
 
 > European Space Agency Climate Change Initiative Biomass Project. 2021. ESA Biomass Climate Change Initiative (Biomass_cci): Global Datasets of Forest Above-Ground Biomass for the Years 2010, 2017 and 2018, v3. NERC EDS Centre for Environmental Data Analysis. DOI: 10.5285/5f331c418e9f4935b8eb1b836f8a91b8. URL: https://climate.esa.int/en/projects/biomass/. Used for 2017 above-ground biomass inputs.
@@ -164,7 +160,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
 
 > Sistema de Estimativas de Emissoes e Remocoes de Gases de Efeito Estufa (SEEG). Greenhouse-gas emissions and removals data. URL: https://seeg.eco.br/. Used for agricultural net emissions and emissions calibration; raw filenames record a 2020.11.05 extract.
@@ -201,7 +197,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
 
 > Instituto de Pesquisa Economica Aplicada (IPEA). Ipeadata tables for distance-to-capital and farm-gate or commodity-price inputs. URL: https://www.ipeadata.gov.br/. Access notes: the manuscript reports SEAB-PR price data distributed through IPEA were accessed on February 22, 2021; the distance raw filename records an August 21, 2023 extract.
@@ -227,7 +223,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
     
 > Fundacao Getulio Vargas, Instituto Brasileiro de Economia (FGV IBRE). Deflator series used for price preparation. URL: https://portalibre.fgv.br/. Access note: retain exact raw files and access metadata in the final archive.
@@ -240,7 +236,7 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
 -   [x] Access conditions are described
 -   [ ] Data are not cited, but a working paper, article, or other document is cited (not a data citation)
 -   [x] Data are cited
-    -   [ ] in the manuscript
+    -   [x] in the manuscript
     -   [x] in the README
 
 > World Bank. World Development Indicators and World Bank source files used for Figure 1, GDP per capita, emissions, and carbon-pricing inputs. URLs: https://data.worldbank.org/, https://databank.worldbank.org/source/world-development-indicators, and https://carbonpricingdashboard.worldbank.org/. Access note: manuscript Figure 1 reports World Bank data were downloaded in March 2021.
@@ -265,12 +261,23 @@ In assessing compliance with our [Data and Code Availability Policy](https://www
     -   Gurobi \>= 10.0.3
     -   CmdStan through `cmdstanpy`
     -   Slurm (optional)
--   [ ] Computational Requirements specified as follows:
-    -   Cluster size, etc.
+-   [x] Computational Requirements specified as follows:
+    -   Cluster type: Access to a Slurm-based high-performance computing cluster for the heavy HMC and MPC stages.
+    - Total cluster size: Not explicitly specified. The author provides per-job resource requirements but does not state the total number of cluster nodes or concurrent jobs required.
+    - Nodes per Slurm job: 1 node
+    - CPU allocation per Slurm job: 8 CPU cores (--cpus-per-task=8)
+    - Memory per Slurm job: 32 GB RAM (--mem=32G)
+    - Standard job grouping: Up to 10 replication commands per Slurm job
+    - Grouping threshold: Commands are grouped when there are at least 100 commands
+    - Large MPC jobs: One replication command per Slurm job
+    - Local author-tested CPU: Apple M4 Max with 14 CPU cores, consisting of 10 performance cores and 4 efficiency cores
+    - Local author-tested memory: 36 GB RAM
+    - Working storage: At least 100 GB
+    - Local execution limitation: A single-worker local machine is not recommended for the computationally intensive HMC and MPC stages.
 -   [x] Time Requirements specified as follows:
     -   46 hours (with Slurm parallelization)
     -   2,400 job-hours (across parallel tasks)
--   [ ] Requirements are complete.
+-   [x] Requirements are complete.
 
 For missing requirements, see the list of required changes in @sec-findings
 
@@ -291,9 +298,7 @@ For missing requirements, see the list of required changes in @sec-findings
 {{< include generated/report-cloc.md >}}
 
 -   [x] The replication package contains a "main" or "master" file(s) which calls all other auxiliary programs.
--   The replication folder contains 48 R scripts, 49 Python files, and 2 shell scripts
--   The README does not identify which tables and plots are produced by what program. However, there is a separate manifest that shows the source file for the replication of each table and figure.
--   The README also does not identify the 5 in-text numbers that do not refer to tables. 
+-   The replication folder contains 49 R scripts, 51 Python files, and 2 shell scripts (not including any scripts in the folders labelled backup)
 
 > NOTE: In-text numbers that reference numbers in tables do not need to be listed. Only in-text numbers that correspond to no table or figure need to be listed.
 
@@ -303,19 +308,17 @@ For missing requirements, see the list of required changes in @sec-findings
 -   R `sessionInfo()` below:
 
 ``` bash
-R version 4.5.3 (2026-03-11)
-Platform: x86_64-conda-linux-gnu
-Running under: Ubuntu 24.04.1 LTS
+R version 4.5.2 (2025-10-31)
+Platform: x86_64-pc-linux-gnu
+Running under: Ubuntu 22.04.4 LTS
 
 Matrix products: default
-BLAS/LAPACK: /opt/conda/lib/libopenblasp-r0.3.30.so;  LAPACK version 3.12.0
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/libopenblasp-r0.3.20.so;  LAPACK version 3.10.0
 
 locale:
- [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
- [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
- [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
- [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
- [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C               LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8     LC_MONETARY=en_US.UTF-8   
+ [6] LC_MESSAGES=en_US.UTF-8    LC_PAPER=en_US.UTF-8       LC_NAME=C                  LC_ADDRESS=C               LC_TELEPHONE=C            
 [11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
 
 time zone: Etc/UTC
@@ -325,7 +328,7 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 loaded via a namespace (and not attached):
-[1] compiler_4.5.3
+[1] compiler_4.5.2    cli_3.6.5         rsconnect_1.7.0   tools_4.5.2       rstudioapi_0.17.1 lifecycle_1.0.4   rlang_1.1.6   
 ```
 
 -   R 4.5.3
@@ -348,16 +351,7 @@ Attempted to source the setup script in local mode:
 ``` bash
 source ./setup_env.sh local
 ```
-
-This produced a virtual environment permission error:
-
-```         
-Unable to symlink '/opt/conda/bin/python3' to '/files/package/amazon-carbon-prices/.venv/bin/python3'
-bash: /files/package/amazon-carbon-prices/.venv/bin/python: Permission denied
-[... additional setup output omitted ...]
-```
-
-Tried fixing the virtual environment by removing `.venv`, making the setup script executable, and rerunning setup:
+This could not locate the python executable in the `.venv`. Tried fixing the virtual environment by removing `.venv`, making the setup script executable, and rerunning setup:
 
 ``` bash
 rm -rf .venv
@@ -365,292 +359,20 @@ chmod +x ./setup_env.sh
 ./setup_env.sh local
 ```
 
-## Missing R
-
-The setup script then reported that `Rscript` was unavailable:
-
-```         
-Warning: Rscript is not available. Install R first, then rerun without --skip-renv.
-```
-
-Fixed by installing R through conda:
-
-``` bash
-conda install -c conda-forge r-base r-essentials
-```
-
-Later, rebuilt the environment more completely with Python, R, ImageMagick, and `pkg-config`:
-
-``` bash
-conda create -n amazon-carbon -c conda-forge python=3.11 "r-base=4.4.*" r-essentials imagemagick pkg-config -y
-conda activate amazon-carbon
-```
-
-## R Package: `magick`
-
-The `magick` package failed because the Magick++ headers/libraries were missing:
-
-```         
-Error: Error installing package 'magick':
-Configuration failed to find the Magick++ library.
-<stdin>:1:10: fatal error: Magick++.h: No such file or directory
-[... additional renv traceback omitted ...]
-```
-
-Fixed by creating a fuller conda environment with ImageMagick and `pkg-config`:
-
-``` bash
-conda create -n amazon-carbon -c conda-forge python=3.11 "r-base=4.4.*" r-essentials imagemagick pkg-config -y
-conda activate amazon-carbon
-```
-
-## R Package: `nloptr`
-
-The `nloptr` package failed during the local NLopt/CMake build:
-
-```         
-Error: Error installing package 'nloptr':
-CMake Error at CMakeLists.txt:15 (cmake_minimum_required): Compatibility with CMake < 3.5 has been removed from CMake.
-/opt/conda/envs/amazon-carbon/.../ld: cannot find nlopt/lib/libnlopt.a: No such file or directory
-[... additional compiler and renv output omitted ...]
-```
-
-Fixed by installing NLopt and build tools from conda-forge:
-
-``` bash
-conda install -c conda-forge nlopt cmake pkg-config -y
-```
-
-## R Package: `units`
-
-The `units` package failed because `libudunits2` was missing:
-
-```         
-Error: Error installing package 'units':
-configure: error: Configuration failed because libudunits2.so was not found.
-[... additional configure and renv output omitted ...]
-```
-
-Fixed by installing `udunits2` and `expat`:
-
-``` bash
-conda install -c conda-forge udunits2 expat -y
-```
-
-## R Package: `sf`
-
-The first `sf` installation failed because `gdal-config` was missing:
-
-```         
-Error: Error installing package 'sf':
-configure: error: gdal-config not found or not executable.
-[... additional renv traceback omitted ...]
-```
-
-Installed the spatial libraries:
-
-``` bash
-conda install -c conda-forge gdal geos proj sqlite libspatialite -y
-```
-
-The next `sf` installation reached GDAL, GEOS, and PROJ, but failed compiling against the newer GDAL API:
-
-```         
-Error: Error installing package 'sf':
-stars.cpp:24:48: error: invalid conversion from 'CSLConstList' {aka 'const char* const*'} to 'char**' [-fpermissive]
-[... additional compiler output and renv traceback omitted ...]
-```
-
-Fixed by pinning GDAL/libGDAL to the 3.8 series:
-
-``` bash
-conda install -c conda-forge "gdal=3.8.*" "libgdal=3.8.*" geos proj sqlite libspatialite -y
-```
-
-The next `sf` attempt failed because PROJ data could not be found:
-
-```         
-Error: Error installing package 'sf':
-ERROR 1: PROJ: proj_create_from_database: Open of /opt/conda/envs/amazon-carbon/share/proj failed
-configure: error: OGRCoordinateTransformation() does not return a coord.trans: PROJ not available?
-[... additional configure and renv output omitted ...]
-```
-
-Fixed by installing `proj-data` and exporting the relevant data paths:
-
-``` bash
-conda install -c conda-forge proj proj-data -y
-export PROJ_LIB=/opt/conda/envs/amazon-carbon/share/proj
-export PROJ_DATA=/opt/conda/envs/amazon-carbon/share/proj
-export GDAL_DATA=/opt/conda/envs/amazon-carbon/share/gdal
-```
-
-## R Package: `systemfonts`
-
-The `systemfonts` package failed because `uint32_t` was not declared:
-
-```         
-Error: Error installing package 'systemfonts':
-ft_cache.h:159:18: error: 'uint32_t' has not been declared
-ft_cache.h:20:1: note: 'uint32_t' is defined in header '<cstdint>'; this is probably fixable by adding '#include <cstdint>'
-[... additional compiler output and renv traceback omitted ...]
-```
-
-Fixed by creating an R `Makevars` file that forces inclusion of `cstdint`:
-
-``` bash
-mkdir -p ~/.R
-cat > ~/.R/Makevars <<'EOF'
-CXXFLAGS += -include cstdint
-CXX11FLAGS += -include cstdint
-CXX14FLAGS += -include cstdint
-CXX17FLAGS += -include cstdint
-CXX20FLAGS += -include cstdint
-EOF
-```
-
-## R Package: `ragg`
-
-The `ragg` package failed on an invalid conversion in the bundled AGG/Freetype code:
-
-```         
-Error: Error installing package 'ragg':
-agg/src/agg_font_freetype.cpp:182:35: error: invalid conversion from 'unsigned char*' to 'char*' [-fpermissive]
-[... additional compiler output and renv traceback omitted ...]
-```
-
-Fixed by adding `-fpermissive` to the R `Makevars` C++ flags:
-
-``` bash
-cat > ~/.R/Makevars <<'EOF'
-CXXFLAGS += -include cstdint -fpermissive
-CXX11FLAGS += -include cstdint -fpermissive
-CXX14FLAGS += -include cstdint -fpermissive
-CXX17FLAGS += -include cstdint -fpermissive
-CXX20FLAGS += -include cstdint -fpermissive
-EOF
-```
-
-## R Package: `selectr`
-
-The `selectr` package failed because cached `stringi` was linked against a missing ICU library:
-
-```         
-Error: Error installing package 'selectr':
-unable to load shared object '.../stringi/libs/stringi.so': libicuuc.so.78: cannot open shared object file: No such file or directory
-[... additional lazy-loading and renv output omitted ...]
-```
-
-Fixed by removing the stale cached `stringi` package:
-
-``` bash
-rm -rf /tmp/R/renv/cache/v5/linux-ubuntu-noble/R-4.4/x86_64-conda-linux-gnu/stringi
-```
-
-## R Package: `terra`
-
-The `terra` package initially failed because the C compiler could not create executables:
-
-```         
-Error: Error installing package 'terra':
-configure: error: C compiler cannot create executables
-[... additional configure and renv output omitted ...]
-```
-
-Tried installing compiler/runtime packages:
-
-``` bash
-conda install -c conda-forge compilers libstdcxx-ng libgcc-ng sysroot_linux-64 make -y
-```
-
-When the source installation failed again, installed `terra` directly from conda-forge:
-
-``` bash
-conda install -c conda-forge r-terra -y
-```
-
-After that, `terra` installed successfully:
-
-```         
-Installing terra ... OK [built from source and cached in 3.4m]
-```
-
-## R Package: `tidyverse`
-
-The `tidyverse` package failed because `stringi` was linked against a missing ICU library:
-
-```         
-Error: Error installing package 'tidyverse':
-unable to load shared object '.../stringi/libs/stringi.so': libicui18n.so.75: cannot open shared object file: No such file or directory
-[... additional package-loading and renv output omitted ...]
-```
-
-Fixed by removing the stale cached `stringi` package again:
-
-``` bash
-rm -rf /tmp/R/renv/cache/v5/linux-ubuntu-noble/R-4.4/x86_64-conda-linux-gnu/stringi
-```
-
-## `sf` Runtime Linkage Issue
-
-After installing `r-terra`, `sf` failed to load because it was linked against a missing GDAL shared library:
-
-```         
-Error: package or namespace load failed for 'sf':
-unable to load shared object '.../sf/libs/sf.so': libgdal.so.34: cannot open shared object file: No such file or directory
-```
-
-Fixed by removing `r-terra` and reinstalling a consistent GDAL stack:
-
-``` bash
-conda remove r-terra -y
-conda install -c conda-forge "gdal=3.8.5" "libgdal=3.8.5" geos proj proj-data sqlite libspatialite -y
-```
-
-## CmdStan Build
-
-Building CmdStan failed because `TBB_CXX_TYPE` was not set for the conda compiler:
-
-```         
-stan/lib/stan_math/make/libraries:114: *** "Need to set TBB_CXX_TYPE for non-standard compiler other than gcc or clang.". Stop.
-```
-
-Fixed by setting the conda environment paths and `TBB_CXX_TYPE`, then rebuilding:
-
-``` bash
-cd /home/datahub/.cmdstan/cmdstan-2.39.0
-
-export CONDA_PREFIX=/opt/conda/envs/amazon-carbon
-export PATH=$CONDA_PREFIX/bin:$PATH
-export MAKE=$CONDA_PREFIX/bin/make
-export TBB_CXX_TYPE=gcc
-
-/opt/conda/envs/amazon-carbon/bin/make build -j1
-```
-
+-   Followed instructions as per README for linux users.
 -   After this `setup_env.sh` ran to completion.
--   The full pipeline was not run due computational limitations. A shorter run based on the README was run and finished to completion.
+-   The full pipeline was not run due computational limitations. A shorter run based on the README was run, it only re-created the tables.
 
 ``` bash
 ./run.sh --steps postprocess-only --backend local
 ```
+-   `pandas` was not found by the script. Ran:
+```bash
+/opt/conda/envs/amazon-carbon/bin/python -m pip install pandas
+```
+-   After that, it ran to completion.
 
 # Findings {#sec-findings}
-
-## Missing Requirements
-
--   [x] Software Requirements
-    -   [x] R
-        -   [x] Version 4.4
-        -   No packages mentioned in the README
-    -   [x] Python
-        -   No Python packages mentioned in the README
-    -   [x] GDAL
--   [x] Computational Requirements specified as follows:
-    -   Cluster size, disk size, memory size, etc.
-    -   Nothing specified in the README
-
-> \[REQUIRED\] Please amend README to contain complete requirements.
 
 ## Data Preparation Code
 
@@ -660,8 +382,6 @@ export TBB_CXX_TYPE=gcc
 | rsrc/processing/_masterfile.R  | data/processed/: cattle_price_index.Rdata; pixel_sample.Rdata; pixel_areas.Rdata; pixel_categories.Rdata; pixel_primary_forest_2017.Rdata; pixel_biomass_2017.Rdata; spatial, cross-section, and panel municipality samples; muni_biomass_2017.Rdata; muni_data.Rdata; state_emissions.Rdata; processed land-use and biome rasters | NA          |
 | rsrc/calibration/_masterfile.R | data/calibration/: calibration_1043_sites.Rdata/.csv; grid_1043_sites.geojson; calibration_78_sites.Rdata/.csv; grid_78_sites.geojson; gamma/theta calibration objects and fitted GeoJSON inputs                                                                                                                                   | NA          |
 
-
-- Already described the issues in Section 7.
 - The main R code to create the processed, clean and calibration files was not run due to computation limitations.
 
 ## Tables and Figures
@@ -736,29 +456,9 @@ export TBB_CXX_TYPE=gcc
 
 -   All tables and figures look similar. This is expected due to the replication only running the post-processing figure and table generation portion of the pipeline.
 
-- Figure 11 had a minor discrepancy in scale of the y-axis. The plot and numbers match.
-
-::: {#fig-three layout-ncol="2"}
-![Paper version](images/fig11paper.png)
-
-![Replicated version](images/fig11replication.png)
-
-Figure 11
-:::
-
 ## In-Text Numbers
 
--   [ ] In-text numbers not verified.
-
--   [ ] There are no in-text numbers, or all in-text numbers stem from tables and figures.
-
--   [x] There are in-text numbers, but they are not identified in the code
-
-- Page 17, Footnote 28: R-squared = 0.66 - could not verify location in the code
-- Page 18, correlation is reported as -0.27 - same
-- Page 24, Footnote 35: "our simulations show that future trajectories do not change much for b, when we move from 2 to 3 percent" - could not verify location in code
-- Page 38, our calculations show that b = 25, b_f = .15b, tau_f = 15, no defection would occur in 100 years - could not verify location in code
-- Page 39, footnote 43 - same
+-   [x] In-text numbers are reported in the README. However, they are not verified due to the replication process being limited to the post-processing only.
 
 
 # Classification
@@ -780,6 +480,6 @@ Figure 11
 -   [x] `Insufficient time available to replicator` is applicable when (a) running the code would take weeks or more (b) running the code might take less time if sufficient compute resources were to be brought to bear, but no such resources can be accessed in a timely fashion (c) the replication package is very complex, and following all (manual and scripted) steps would take too long.
 -   [ ] `Data missing` is marked when data *should* be available, but was erroneously not provided, or is not accessible via the procedures described in the replication package
 -   [ ] `Data not available` is marked when data requires additional access steps, for instance purchase or application procedure.
--   [x] `Missing README` is marked if there is no README to guide the replicator, or the README is not in compliance with JPE requirements
+-   [ ] `Missing README` is marked if there is no README to guide the replicator, or the README is not in compliance with JPE requirements
 
 {{< include generated/report-pii.md >}}
